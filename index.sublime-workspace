@@ -1,0 +1,296 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"SEQ",
+				"SEQUENTIAL_CUTOFF"
+			],
+			[
+				"findS",
+				"findStatsSequential"
+			],
+			[
+				"comps",
+				"comps_sum"
+			],
+			[
+				"word_",
+				"word_frequency_helper"
+			],
+			[
+				"NULL",
+				"NULL"
+			],
+			[
+				"numItems",
+				"numItems-1"
+			],
+			[
+				"size",
+				"size"
+			],
+			[
+				"emer",
+				"emergencyHappened"
+			],
+			[
+				"total",
+				"totalTimeTakeOff"
+			],
+			[
+				"takeO",
+				"takeOffCounter"
+			],
+			[
+				"maxPl",
+				"maxPlanesTakeOffQueue"
+			],
+			[
+				"max",
+				"maxPlanesTakeOffQueue"
+			],
+			[
+				"take",
+				"takeOffCounter"
+			],
+			[
+				"land",
+				"landingCounter"
+			],
+			[
+				"simul",
+				"simulationTime"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "sass",
+		"selected_items":
+		[
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/luce/Downloads/font-bundles-master/bundle/Ionicons.json",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/lab9/avl.cc",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/proj3/generator2.cc",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/proj3/generator0.cc",
+		"/Users/luce/Documents/PROJ3 FROM KDHIR/gen0.cc",
+		"/Users/luce/Documents/CPSC221/proj3/generator0.cc",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/lab8/avl.cc",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/lab8/Unit.cc",
+		"/Users/luce/Documents/CPSC221/lab8/Unit.cc",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/proj2/main.cpp",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/proj2/max_heap.cpp",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/proj2/string_bst.cpp",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/proj2/string_bst.hpp",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/proj2/max_heap.hpp",
+		"/Users/luce/Documents/CPSC221/cs221/lab6/qsortCount.cp",
+		"/private/var/folders/1r/vxlk9tzx2bz4gt034xnvxf3w0000gn/T/68742c01-8319-4416-ac2e-d25ecf547978/home/j/j1k0b/cs221/lab6/qsortCount.cp",
+		"/Users/luce/Documents/CPSC221/cs221/proj2/main.cpp",
+		"/Users/luce/Documents/CPSC221/cs221/proj2/max_heap.hpp",
+		"/Users/luce/Documents/CPSC221/cs221/proj2/max_heap.cpp",
+		"/Users/luce/Documents/CPSC221/cs221/proj2/test.txt",
+		"/Users/luce/Documents/CPSC221/cs221/lab4/binaryheap.cpp",
+		"/Users/luce/Documents/CPSC221/cs221/lab4/binaryheap",
+		"/Users/luce/Documents/CPSC221/cs221/lab3/dates.cc",
+		"/Users/luce/Documents/CPSC221/cs221/proj2/text_item.cpp",
+		"/Users/luce/Documents/CPSC221/cs221/proj2/text_item.hpp",
+		"/Users/luce/Documents/CPSC221/cs221/proj2/Makefile",
+		"/Users/luce/Documents/CPSC221/cs221/lab2/deque.cc",
+		"/Users/luce/Documents/CPSC221/cs221/lab5/bst.cc",
+		"/Users/luce/Documents/CPSC221/lab5/bst.cc",
+		"/Users/luce/Documents/CPSC221/lab5/bst5.cc",
+		"/Users/luce/Documents/CPSC221/lab5/bst4.cc",
+		"/Users/luce/Documents/CPSC221/lab5/bst2.cc",
+		"/Users/luce/Downloads/binaryHeap.cp",
+		"/Users/luce/Documents/CPSC221/runway4.C",
+		"/Users/luce/Documents/CPSC221/runway3.C",
+		"/Users/luce/Documents/CPSC221/runway2.C",
+		"/Users/luce/Documents/CPSC221/runway.C",
+		"/Users/luce/Documents/CPSC221/merge.C",
+		"/Users/luce/Documents/CPSC221/LQueue",
+		"/Users/luce/Documents/WebDev/numerouno.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cutoff",
+			"sequential_cutoff",
+			"helper",
+			"load_bst",
+			"sizeof(hp3)",
+			"sizeof(hp2)",
+			"sizeof(hp)",
+			"max_heap",
+			"numNodes",
+			"swap",
+			"landingcounter++",
+			"takeoffcounter--",
+			"landingcounter--",
+			"simulationtime",
+			"bad weather",
+			"myfront"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"hp3.size()",
+			"hp2.size()",
+			"hp.size()"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 151.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
