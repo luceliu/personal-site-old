@@ -1,0 +1,23 @@
+.ctr {
+	width: 600px;
+	height: 400px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -110px 0 0 -300px;
+	line-height: 40px;
+}
+
+h1 {
+	font-size: 26px;
+	letter-spacing: 3px;
+}
+
+body {
+  font-family: 'Lato', serif;
+  background-color: #D7F2EF;
+  text-align: center;
+  color: #333333;
+  letter-spacing: 1px;
+  display: block;
+}
