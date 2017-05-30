@@ -15,9 +15,21 @@ h1 {
 
 body {
   font-family: 'Lato', serif;
-  background-color: #D7F2EF;
+  background-color: #E8F4FF;
   text-align: center;
   color: #333333;
   letter-spacing: 1px;
   display: block;
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	color: #004587;
+
+
+a:active {
+	color: white;
 }
