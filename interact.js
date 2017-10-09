@@ -2,7 +2,7 @@ var taglines =
 [
 "Pseudovegan",
 "Pug x German Shepherd mix owner",
-"Nomad Torontonian",
+"Nomadic Torontonian",
 "Board game enthusiast",
 "Aspiring film buff",
 "Logophile",
@@ -12,6 +12,7 @@ var taglines =
 "Lover of lavender",
 "Adrenaline junkie",
 "Frequent user of alliteration",
+"Amateur photographer",
 "3rd year Cognitive Systems student at UBC"
 ];
 
