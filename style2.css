@@ -9,17 +9,37 @@
 }
 
 h1 {
-	font-size: 26px;
+	font-size: 32px;
 	letter-spacing: 3px;
 }
 
 body {
+
+	font-family: 'Lato', serif;
+	background-color: #E8F4FF;
+	text-align: center;
+	color: #333333;
+	letter-spacing: 1px;
+	display: block;
+	cursor: default;
+}
+
+p {
+	line-height: 8px;
+}
+
+br {
+	display: block;
+	margin: 30px 0;
+	content: " ";
+
   font-family: 'Lato', serif;
   background-color: #E8F4FF;
   text-align: center;
   color: #333333;
   letter-spacing: 1px;
   display: block;
+
 }
 
 a {
@@ -33,3 +53,15 @@ a:hover {
 a:active {
 	color: white;
 }
+
+
+#more {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.hovered {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
