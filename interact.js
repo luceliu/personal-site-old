@@ -11,8 +11,9 @@ var taglines =
 "Generalist",
 "Lover of lavender",
 "Adrenaline junkie",
-"Frequent user of alliteration",
+"Avid advocate of alliteration",
 "Amateur photographer",
+"Design enthusiast",
 "3rd year Cognitive Systems student at UBC"
 ];
 
