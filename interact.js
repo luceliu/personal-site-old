@@ -18,14 +18,14 @@ var taglines =
 ];
 
 function getNewTagLine(){
-	debugger;
+	// debugger;
 	var newLine = taglines[Math.floor(Math.random() * taglines.length)]; // get random tagline from the array
 	console.log(newLine);
 	if ($("#tagline").text() == newLine){
 		console.log("repeat - need another one");
 		getNewTagLine();
 	}
-	console.log("this is indeed a new tagline :"+newLine);
+	// console.log("this is indeed a new tagline :"+newLine);
 	return newLine;
 }
 
@@ -34,10 +34,10 @@ $("#more").hover(function(){
 });
 
 $("#more").click(function(){
-	console.log("clicked tagline");
+	// console.log("clicked tagline");
 	$("#tagline").fadeOut(500, function(){
 		var newTag = getNewTagLine();
-		console.log("displaying: "+newTag);
+		// console.log("displaying: "+newTag);
 		$("#tagline").text(newTag);
 	}).fadeIn();
 
