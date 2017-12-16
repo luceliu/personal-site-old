@@ -8,6 +8,10 @@
 	line-height: 40px;
 }
 
+#icon-row {
+	display: inline-flex;
+}
+
 h1 {
 	font-size: 32px;
 	letter-spacing: 3px;
@@ -44,6 +48,7 @@ br {
 
 a {
 	color: #333333;
+	padding: 0px 3px;
 }
 
 a:hover {
