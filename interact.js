@@ -19,10 +19,8 @@ function getNewTagLine() {
   var newLine = taglines[Math.floor(Math.random() * taglines.length)]; // get random tagline from the array
   console.log(newLine);
   if ($("#tagline").text() == newLine) {
-    console.log("repeat - need another one");
     getNewTagLine();
   }
-  // console.log("this is indeed a new tagline :"+newLine);
   return newLine;
 }
 
@@ -40,4 +38,3 @@ $("#more").click(function() {
     })
     .fadeIn();
 });
-
