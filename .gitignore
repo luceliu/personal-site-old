@@ -1,0 +1,11 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore sass
+.sass-cache/*
+
+# Ignore scss
+scss/*
+
+# Ignore this too
+**/.map

@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 90% 10%;
+  width: 100vw;
+  height: 100vh; }
+
+.box {
+  border: 2px dodgerblue solid; }
+
+/*# sourceMappingURL=styling.css.map */
