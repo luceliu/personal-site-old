@@ -1,11 +1,60 @@
-.container {
+#container {
   display: grid;
   grid-template-columns: 35% 65%;
-  grid-template-rows: 90% 10%;
+  grid-template-rows: 92% 8%;
+  grid-template-areas: "name content" "linkbar linkbar";
   width: 100vw;
-  height: 100vh; }
+  height: 100vh;
+  position: fixed; }
 
-.box {
-  border: 2px dodgerblue solid; }
+.name {
+  grid-area: name;
+  background-color: #55ad96;
+  color: #fefefe;
+  padding: 20%; }
+
+.name-text {
+  display: inline-block;
+  border: 2px solid blue; }
+
+.content {
+  grid-area: content;
+  background-color: #fefefe; }
+
+.content {
+  color: #333333; }
+
+.linkbar {
+  grid-area: linkbar;
+  background-color: #fefefe;
+  color: #333333;
+  font-family: "Overpass Mono", monospace; }
+
+#links {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 10px 10px;
+  text-align: justify;
+  padding: 0 120px; }
+
+#links li {
+  display: inline-block; }
+
+#links::after {
+  content: "";
+  width: 100%;
+  /* Ensures justification for single lines */
+  display: inline-block; }
+
+.serif {
+  font-family: "Crimson Text", serif; }
+
+.sansserif {
+  font-family: "Overpass Mono", monospace; }
+
+a {
+  text-decoration: none;
+  color: #333333; }
 
 /*# sourceMappingURL=styling.css.map */
