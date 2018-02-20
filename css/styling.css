@@ -42,26 +42,32 @@ body:before {
     position: fixed; } }
 
 .name {
-  grid-area: name;
   background-color: #55ad96;
   color: #fefefe;
   padding: 20%;
   text-align: center; }
+  @media (min-width: 46.25em) {
+    .name {
+      grid-area: name; } }
 
 .name-text {
   display: inline-block;
-  margin: 40% 0; }
+  margin: 40% 0;
+  vertical-align: middle; }
   @media (max-width: 46.24em) {
     .name-text {
-      font-size: 60%;
-      margin: 50% 0;
-      vertical-align: middle; } }
+      margin: 50% 0; } }
+  @media (min-width: 46.25em) {
+    .name-text {
+      margin: auto;
+      position: relative;
+      top: 30%;
+      -webkit-transform: translateY(-30%);
+      -ms-transform: translateY(-30%);
+      transform: translateY(-30%); } }
 
 .stats {
   margin-top: 40px; }
-  @media (max-width: 46.24em) {
-    .stats {
-      font-size: 60%; } }
 
 .content {
   grid-area: content;
