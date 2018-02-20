@@ -70,11 +70,22 @@ body:before {
   margin-top: 40px; }
 
 .content {
-  grid-area: content;
-  background-color: #fefefe; }
-
-om .content {
+  background-color: #fefefe;
   color: #333333; }
+  @media (max-width: 46.24em) {
+    .content {
+      margin: 10%; } }
+  @media (min-width: 46.25em) {
+    .content {
+      margin: 15%;
+      grid-area: content; } }
+
+.content-text {
+  margin: auto;
+  line-height: 150%; }
+
+br {
+  line-height: 200%; }
 
 .linkbar {
   grid-area: linkbar;
