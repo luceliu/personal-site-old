@@ -79,6 +79,14 @@ om .content {
   /* Ensures justification for single lines */
   display: inline-block; }
 
+@media (min-width: 46.25em) {
+  .link-icon {
+    display: none; } }
+
+@media (max-width: 46.24em) {
+  .link-text {
+    display: none; } }
+
 .serif {
   font-family: "Crimson Text", serif; }
 
