@@ -28,26 +28,42 @@ body:before {
       content: "wide ≥ 1300px (81.25em)"; } }
 
 #container {
-  display: grid;
-  grid-template-columns: 35% 65%;
-  grid-template-rows: 92% 8%;
-  grid-template-areas: "name content" "linkbar linkbar";
-  width: 100vw;
-  height: 100vh;
-  position: fixed; }
+  display: grid; }
+  @media (max-width: 46.24em) {
+    #container {
+      grid-template-columns: 100%;
+      grid-template-rows: 92% 8%;
+      grid-template-areas: "name" "linkbar"; } }
+  @media (min-width: 46.25em) {
+    #container {
+      grid-template-columns: 35% 65%;
+      grid-template-rows: 92% 8%;
+      grid-template-areas: "name content" "linkbar linkbar";
+      width: 100vw;
+      height: 100vh;
+      position: fixed; } }
 
 .name {
   grid-area: name;
   background-color: #55ad96;
   color: #fefefe;
-  padding: 20%; }
-  @media (max-width: 46.24em) {
-    .name {
-      background-color: blue; } }
+  padding: 20%;
+  text-align: center; }
 
 .name-text {
   display: inline-block;
-  border: 2px solid blue; }
+  margin: 40% 0; }
+  @media (max-width: 46.24em) {
+    .name-text {
+      font-size: 60%;
+      margin: 50% 0;
+      vertical-align: middle; } }
+
+.stats {
+  margin-top: 40px; }
+  @media (max-width: 46.24em) {
+    .stats {
+      font-size: 60%; } }
 
 .content {
   grid-area: content;
@@ -60,7 +76,8 @@ om .content {
   grid-area: linkbar;
   background-color: #fefefe;
   color: #333333;
-  font-family: "Overpass Mono", monospace; }
+  font-family: "Overpass Mono", monospace;
+  height: 8vh; }
 
 #links {
   position: relative;
