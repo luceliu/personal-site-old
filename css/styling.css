@@ -27,21 +27,19 @@ body:before {
     body:before {
       content: "wide ≥ 1300px (81.25em)"; } }
 
-#container {
-  display: grid; }
-  @media (max-width: 46.24em) {
-    #container {
-      grid-template-columns: 100%;
-      grid-template-rows: 92% 8%;
-      grid-template-areas: "name" "linkbar"; } }
-  @media (min-width: 46.25em) {
-    #container {
-      grid-template-columns: 35% 65%;
-      grid-template-rows: 92% 8%;
-      grid-template-areas: "name content" "linkbar linkbar";
-      width: 100vw;
-      height: 100vh;
-      position: fixed; } }
+@media (max-width: 46.24em) {
+  #container {
+    display: flex;
+    flex-direction: column; } }
+@media (min-width: 46.25em) {
+  #container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 92% 8%;
+    grid-template-areas: "name content" "linkbar linkbar";
+    width: 100vw;
+    height: 100vh;
+    position: fixed; } }
 
 .name {
   grid-area: name;
