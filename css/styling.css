@@ -129,4 +129,49 @@ a {
   text-decoration: none;
   color: #333333; }
 
+#selector {
+  margin-bottom: 1.1em; }
+
+#selector-button {
+  display: inline-block;
+  outline: none; }
+
+#dropdownMenuButton {
+  font-family: "Overpass Mono", monospace;
+  margin: auto;
+  line-height: 150%;
+  border: none;
+  background-color: transparent;
+  color: #333333;
+  padding: 0;
+  vertical-align: baseline; }
+
+#dropdownMenuButton:focus,
+#dropdownMenuButton:active {
+  border: none;
+  outline: none;
+  box-shadow: none; }
+
+.dropdown-menu {
+  border: 1px solid #55ad96; }
+
+.dropdown-item {
+  font-family: "Overpass Mono", monospace;
+  margin: auto;
+  line-height: 150%; }
+
+.dropdown-item:hover {
+  color: #55ad96; }
+
+.dropdown-toggle::after {
+  vertical-align: 0.15em; }
+
+.btn:focus,
+.btn:hover {
+  outline: none;
+  border: none; }
+
+.hidden {
+  display: none; }
+
 /*# sourceMappingURL=styling.css.map */
