@@ -27,7 +27,8 @@
 .name-text {
   display: inline-block;
   margin: 40% 0;
-  vertical-align: middle; }
+  vertical-align: middle;
+  cursor: default; }
   @media (max-width: 46.24em) {
     .name-text {
       margin: 50% 0;
@@ -143,7 +144,8 @@ a {
 .dropdown-item {
   font-family: "Overpass Mono", monospace;
   margin: auto;
-  line-height: 150%; }
+  line-height: 150%;
+  cursor: pointer; }
 
 .dropdown-item:hover {
   color: #55ad96;
