@@ -105,6 +105,9 @@ br {
 #links li {
   display: inline-block; }
 
+#links li a:hover {
+  color: #55ad96; }
+
 #links::after {
   content: "";
   width: 100%;
@@ -161,7 +164,8 @@ a {
   line-height: 150%; }
 
 .dropdown-item:hover {
-  color: #55ad96; }
+  color: #55ad96;
+  background-color: transparent; }
 
 .dropdown-toggle::after {
   vertical-align: 0.15em; }
