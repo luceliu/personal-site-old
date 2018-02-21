@@ -125,6 +125,12 @@ a {
   padding: 0;
   vertical-align: baseline; }
 
+#dropdownMenuButton:hover {
+  color: #55ad96; }
+
+.dropdown-toggle:hover::after {
+  color: #333333; }
+
 #dropdownMenuButton:focus,
 #dropdownMenuButton:active {
   border: none;
