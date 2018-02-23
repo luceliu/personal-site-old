@@ -74,7 +74,7 @@ br {
 #links {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
   margin: 10px 10px;
   text-align: justify;
   padding: 0 120px; }
@@ -83,7 +83,8 @@ br {
   display: inline-block; }
 
 #links li a:hover {
-  color: #55ad96; }
+  color: #333333;
+  text-decoration: none; }
 
 #links::after {
   content: "";
@@ -94,10 +95,24 @@ br {
 @media (min-width: 46.25em) {
   .link-icon {
     display: none; } }
+.link-icon:hover {
+  color: #55ad96; }
 
 @media (max-width: 46.24em) {
   .link-text {
     display: none; } }
+.link-text:after {
+  content: "";
+  transform: translateY(-5px);
+  display: block;
+  margin: auto;
+  height: 4px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease; }
+.link-text:hover:after {
+  width: 100%;
+  background: #55ad96; }
 
 .serif {
   font-family: "Crimson Text", serif; }
