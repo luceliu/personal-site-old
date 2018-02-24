@@ -61,6 +61,13 @@
   margin: auto;
   line-height: 150%; }
 
+.content-text a {
+  font-weight: bold; }
+
+.content-text a:hover {
+  text-decoration: none;
+  color: #55ad96; }
+
 br {
   line-height: 200%; }
 
