@@ -1,85 +1,160 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Luce Liu</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styling.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="node_modules/normalize.css/normalize.css"
+    />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text|Overpass+Mono"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Luce Liu</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/styling.css">
-  <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
-  <link rel="shortcut icon" href="favicon.ico">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Overpass+Mono" rel="stylesheet">
-</head>
-
-<body>
-  <div id="container">
-    <div class="name">
-      <div class="name-text">
-        <h1 class="serif">Hey, I'm Luce.</h1>
-        <p class="stats">
-          <i class="fas fa-thumbtack"></i><span class="sansserif"> Singapore</span>
-        </p>
-      </div>
-    </div>
-    <div class="content">
-      <div id="selector">
-        <span class="sansserif content-text">
-          I'm a
-        </span>
-        <div id="selector-button" class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            developer
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <span id="developer-btn" class="dropdown-item">developer</span>
-            <span id="student-btn" class="dropdown-item">student</span>
-            <span id="person-btn" class="dropdown-item">person</span>
-          </div>
+  <body>
+    <div id="container">
+      <div class="name">
+        <div class="name-text">
+          <h1 class="serif">Hey, I'm Luce.</h1>
+          <p class="stats">
+            <i class="fas fa-thumbtack"></i
+            ><span class="sansserif"> Vancouver</span>
+          </p>
         </div>
       </div>
-      <p id="developer" class="serif content-text">
-        who’s interested in front-end and full-stack. I’m also into indie game dev and design (<a href="https://www.newyorker.com/tech/elements/a-dark-room-the-best-selling-game-that-no-one-can-explain">A Dark Room</a> is my muse).
-        <br /><br />
-        At my last internship at TIO PayPal, I automated UI tests for a web app, and designed & built the front-end of a test data tool.
-        <br /><br />
-        Additionally, I’m keen on learning more about product design and management. I think the <em>why</em> is as important as the <em>how</em>. Problems — and people — are multi-faceted, and I enjoy wrestling with optimization and different
-        perspectives.
-      </p>
-      <p id="student" class="serif content-text hidden">
-        in my third year of a Bachelor’s degree in <a href="https://cogsys.ubc.ca/">Cognitive Systems</a> at the University of British Columbia. I describe my major as the union (and often intersection) of computer science, psychology, philosophy,
-        and linguistics. I’m minoring in Economics to boot.
-        <br /><br />
-        Aside from academics, I’ve been involved in the Pacific Northwest student hacker community since 2015. Most recently, I organized <a href="https://www.nwhacks.io/">nwHacks 2018</a>, western Canada’s largest hackathon, with <a href="https://www.startupstorm.org/">a
-          bunch of cool people</a>.
-        <br /><br />
-        I'm currently on an exchange term at National University of Singapore.
-      </p>
-      <p id="person" class="serif content-text hidden">
-        who likes long runs, windy weather, and dry humour.
-        <br /><br />
-        I've lived in Edmonton and Toronto, and have spent most of the past three years in Vancouver.
-        <br /><br />
-        Some of my favourite films are Oldboy, Moon, The Truman Show, and almost everything directed by Christopher Nolan.
-        <br /><br />
-        In another lifetime, I would be a copywriter or architect.
-      </p>
-    </div>
-    <div class="linkbar">
-      <ul id="links">
-        <li><a href="https://github.com/luceliu"><i class="link-icon fab fa-github"></i><span class="link-text">Github</span></a></li>
-        <li><a href="https://www.linkedin.com/in/luceliu"><i class="link-icon fab fa-linkedin"></i><span class="link-text">LinkedIn</span></a></li>
-        <li><a href="https://medium.com/@notluce"><i class="link-icon fab fa-medium-m"></i><span class="link-text">Medium</span></a></li>
-        <li><a href="https://drive.google.com/open?id=1OLNvlxRb0p5S8_jyOwzpOoSZoUId0gKP"><i class="link-icon fas fa-paperclip"></i><span class="link-text">Resume</span></a></li>
-        <li><a href="mailto:thisisluce@gmail.com"><i class="link-icon fas fa-envelope"></i><span class="link-text">Email</span></a></li>
-      </ul>
-    </div>
-  </div>
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="interactive.js"></script>
-</body>
+      <div class="content">
+        <div id="selector">
+          <span class="sansserif content-text">
+            I'm a
+          </span>
+          <div id="selector-button" class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              developer
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <span id="developer-btn" class="dropdown-item">developer</span>
+              <span id="student-btn" class="dropdown-item">student</span>
+              <span id="person-btn" class="dropdown-item">person</span>
+            </div>
+          </div>
+        </div>
+        <p id="developer" class="serif content-text">
+          who’s keen about front-end, and tools like
+          <a href="https://www.gatsbyjs.org/">Gatsby</a> and
+          <a href="https://bulma.io/">Bulma</a>. I've interned at
+          <a href="https://www.paypal.com/">PayPal</a> and
+          <a href="https://www.nuance.com">Nuance Communications</a>, and am
+          currently building <a href="https://github.com/nwplus">Vue apps</a> at
+          <a href="http://www.nwplus.io/">nwPlus</a>. <br /><br />
+          Product management has always piqued my interest, and I'm actively
+          looking for opportunities to explore the <em>why</em> alongside the
+          <em>how</em>. <br /><br />
+          On the side, I'm curious about indie game development and design (<a
+            href="https://www.newyorker.com/tech/elements/a-dark-room-the-best-selling-game-that-no-one-can-explain"
+            >A Dark Room</a
+          >
+          is my muse).
+        </p>
 
+        <p id="student" class="serif content-text hidden">
+          in my fifth year of a Bachelor’s degree in
+          <a href="https://cogsys.ubc.ca/">Cognitive Systems</a> at the
+          University of British Columbia. I describe my major as the union (and
+          often intersection) of computer science, psychology, philosophy, and
+          linguistics. I’m minoring in Economics to boot. <br /><br />
+          Aside from academics, I’ve been involved in the Pacific Northwest
+          student hacker community since 2015. Most recently, after coming back
+          from a year of studying abroad at the National University of
+          Singapore, I rejoined <a href="http://www.nwplus.io/">nwPlus</a>, the
+          club that I led as president to organize
+          <a href="https://nwhacks.io">nwHacks</a> 2018.
+        </p>
+        <p id="person" class="serif content-text hidden">
+          who likes long runs, windy weather, and dry humour.
+          <br /><br />
+          I've lived in Edmonton and Toronto, and have spent most of the past
+          four years in Vancouver.
+          <br /><br />
+          Some of my favourite films are Oldboy, The Truman Show, and the Dark
+          Knight trilogy.
+          <br /><br />
+          In another lifetime, I would be a copywriter or architect.
+        </p>
+      </div>
+      <div class="linkbar">
+        <ul id="links">
+          <li>
+            <a href="https://github.com/luceliu"
+              ><i class="link-icon fab fa-github"></i
+              ><span class="link-text">GitHub</span></a
+            >
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/luceliu"
+              ><i class="link-icon fab fa-linkedin"></i
+              ><span class="link-text">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a href="https://medium.com/@notluce"
+              ><i class="link-icon fab fa-medium-m"></i
+              ><span class="link-text">Medium</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/open?id=1OLNvlxRb0p5S8_jyOwzpOoSZoUId0gKP"
+              ><i class="link-icon fas fa-paperclip"></i
+              ><span class="link-text">Resume</span></a
+            >
+          </li>
+          <li>
+            <a href="mailto:thisisluce@gmail.com"
+              ><i class="link-icon fas fa-envelope"></i
+              ><span class="link-text">Email</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="interactive.js"></script>
+  </body>
 </html>
