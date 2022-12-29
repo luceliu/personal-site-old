@@ -21,6 +21,6 @@
     "sass-mq": "^4.0.2"
   },
   "devDependencies": {
-    "webpack": "^3.11.0"
+    "webpack": "^5.75.0"
   }
 }
